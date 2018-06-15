@@ -4,10 +4,10 @@
 
 Plant::Plant(std::string p_speciesName,
 			 int p_waterConsumptionRate,	
-			 std::string p_pathToSprite)
+			 char p_sprite)
 	:	_speciesName(p_speciesName), 
 		_waterConsumptionRate(p_waterConsumptionRate),
-		_pathToSprite(p_pathToSprite)
+		_sprite(p_sprite)
 {}
 
 Plant::~Plant()

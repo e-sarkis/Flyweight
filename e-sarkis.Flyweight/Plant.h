@@ -4,11 +4,16 @@
 class Plant
 {
 public:
-	Plant(std::string, int, std::string);
+	Plant(std::string, int, char);
 	~Plant();
+
+	int getWateringFrequency() const;
+	std::string getSpeciesName() const;
+	char getSprite() const;
+
 private:
-	int _waterConsumptionRate;
+	int _wateringFrequency;
 	std::string _speciesName;
-	std::string _pathToSprite;
+	char _sprite;
 };
 
