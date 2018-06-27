@@ -1,7 +1,5 @@
 #include "Plant.h"
 
-
-
 Plant::Plant(std::string p_speciesName,
 			 int p_waterConsumptionRate,	
 			 char p_sprite)
@@ -11,6 +9,20 @@ Plant::Plant(std::string p_speciesName,
 {}
 
 Plant::~Plant()
+{}
+
+int Plant::getWateringFrequency() const
 {
+	return _wateringFrequency;
+}
+
+std::string Plant::getSpeciesName() const
+{
+	return _speciesName;
+}
+
+char Plant::getSprite() const
+{
+	return _sprite;
 }
 

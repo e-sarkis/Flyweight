@@ -13,7 +13,9 @@ public:
 
 private:
 	int _wateringFrequency;
+
 	std::string _speciesName;
+
 	char _sprite;
 };
 
