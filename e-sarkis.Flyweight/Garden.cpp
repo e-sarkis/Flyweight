@@ -4,7 +4,9 @@ Garden::Garden()
 	:	_rosePlant("Rose",		1,	'R'),
 		_violetPlant("Violet",	1,	'V'),
 		_grassPlant("Grass",		0,	'#')
-{}
+{
+	generateGarden();
+}
 
 Garden::~Garden()
 {}
