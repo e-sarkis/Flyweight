@@ -68,7 +68,7 @@ std::string Garden::getPlotInfo(int p_x, int p_y)
 		return result.str();
 	}
 
-	result << "Plot [" << p_x << ", " << p_y << "]\n";
+	result << "Plot Index [" << p_x << ", " << p_y << "]\n";
 	result << "Species Name: \"" << _plots[p_x][p_y]->getSpeciesName() << "\"\n";
 	result << "Water " << _plots[p_x][p_y]->getWateringFrequency() << " times per week.\n";
 
