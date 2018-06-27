@@ -25,4 +25,3 @@ char Plant::getSprite() const
 {
 	return _sprite;
 }
-
